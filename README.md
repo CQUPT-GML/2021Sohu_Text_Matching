@@ -4,7 +4,7 @@
 ## 设计思路  
 ### Model使用NEZHA-base做的单模单折 
 
-![](\img\3.svg)
+![](img\3.svg)
 
 ### 1、模型选择  
 我们选择了Bert为Baseline，在这里也要感谢苏神提供的[bert4keras](https://github.com/bojone/bert4keras).使用起来清晰简洁。
@@ -13,7 +13,7 @@
 
 修改了LayerNorm的结构，调整了均值和方差
 
-![](\img\2.svg)
+![](img\2.svg)
 
 ### 3、数据处理上我们尝试了以下方法:  
 
@@ -24,7 +24,7 @@
 
 ### 4、模型修改  
 
-- 梯度惩罚（尝试了比FGM效果好，效果有提升），[参考文章](https://www.spaces.ac.cn/archives/7234)
+- 梯度惩罚（尝试了比FGM效果好，效果有提升）[参考文章](https://www.spaces.ac.cn/archives/7234)
 - Llookahead（效果有提升）,论文来自 《Lookahead Optimizer: k steps forward, 1 step back》[代码地址](https://github.com/bojone/keras_lookahead)
 - 划分阈值（解决类别不平衡，效果有提升）  
 - 长文本处理-摘要提取，使用Snownlp提取多个摘要，并用TextRank计算最重要的摘要，尝试两种方案:
