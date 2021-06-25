@@ -25,7 +25,7 @@
 ### 4、模型修改  
 
 - 梯度惩罚（尝试了比FGM效果好，效果有提升）[参考文章](https://www.spaces.ac.cn/archives/7234)
-- Llookahead（效果有提升）,论文来自 《Lookahead Optimizer: k steps forward, 1 step back》[代码地址](https://github.com/bojone/keras_lookahead)
+- Lookahead（效果有提升）,论文来自 《Lookahead Optimizer: k steps forward, 1 step back》[代码地址](https://github.com/bojone/keras_lookahead)
 - 划分阈值（解决类别不平衡，效果有提升）  
 - 长文本处理-摘要提取，使用Snownlp提取多个摘要，并用TextRank计算最重要的摘要，尝试两种方案:
 
