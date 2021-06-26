@@ -1,6 +1,5 @@
 # -*- coding:utf-8 -*-
 # @Time: 2021/5/31 13:53
-# @Author: duiya duiyady@163.com
 
 import os, json, sys
 os.environ["CUDA_VISIBLE_DEVICES"] = "0"

@@ -1,6 +1,5 @@
 # -*- coding:utf-8 -*-
 # @Time: 2021/5/30 22:20
-# @Author: duiya duiyady@163.com
 
 from bert4keras.tokenizers import Tokenizer
 import os

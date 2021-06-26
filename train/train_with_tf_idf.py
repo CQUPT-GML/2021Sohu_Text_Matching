@@ -1,6 +1,5 @@
 # -*- coding:utf-8 -*-
 # @Time: 2021/5/30 19:20
-# @Author: duiya duiyady@163.com
 
 import os, json, sys
 sys.path.insert(0, '/liliu_fix/share/sohu/')

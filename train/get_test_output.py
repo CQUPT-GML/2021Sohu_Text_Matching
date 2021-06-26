@@ -1,6 +1,5 @@
 # -*- coding:utf-8 -*-
 # @Time: 2021/5/31 13:59
-# @Author: duiya duiyady@163.com
 
 
 import os, json
