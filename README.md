@@ -1,3 +1,7 @@
+---
+typora-root-url: img
+---
+
 
 # 2021搜狐校园文本匹配算法大赛决赛第八名解决方案
 ## 队伍: 1801  决赛排名:8 
@@ -5,7 +9,7 @@
 ## 设计思路  
 ### Model使用NEZHA-base做的单模单折 
 
-![](img/3.svg)
+![](3.svg)
 
 ### 1、模型选择  
 我们选择了Bert为Baseline，在这里也要感谢苏神提供的[bert4keras](https://github.com/bojone/bert4keras).使用起来清晰简洁。
@@ -14,7 +18,7 @@
 
 修改了LayerNorm的结构，调整了均值和方差
 
-![](img/2.svg)
+![](2.svg)
 
 ### 3、数据处理上我们尝试了以下方法:  
 
